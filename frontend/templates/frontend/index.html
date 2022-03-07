@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>task1</title>
+        <style>
+            .highlight {
+                background-color: yellow;
+            }
+            .popup {
+                border: 2px solid black;
+                background-color: white;
+                position: absolute;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                row-gap: 10px;
+                top: 30%;
+                left: 30%;
+                right: 30%;
+                padding: 20px;
+            }
+            #submit {
+                width: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="text">
+            <p>
+                Computer scientists are experts in computation both in terms 
+                of the theory of computation and its innumerable practical 
+                applications. A computer scientist understands how to design 
+                and analyze algorithms, how to store and retrieve information, 
+                how computers function, and how to develop software systems 
+                that solve complex problems. Specialists within computer 
+                science might have expertise in developing software applications, 
+                in designing computer hardware, or in analyzing algorithms, 
+                and in many other current and emerging specializations.
+            </p>
+            <p>
+                The Computer Science Major available through the College of LSA 
+                will prepare you for a world of incredible opportunities. Our 
+                world-class faculty will challenge you to deepen your 
+                intellectual curiosity, and our curriculum will allow you 
+                to tailor your computing studies to your specific areas of 
+                interest. Along the way, you will develop both algorithmic 
+                fundamentals and a framework for understanding that will enable 
+                you to keep pace with the ever-changing world of computer science.
+            </p>
+            <h3>CS-LSA program information</h3>
+            <p>
+                The computer science program requires students to have a solid 
+                foundation in computer software, hardware, and theory, but also 
+                gives each student ample opportunity to take advanced electives 
+                in areas of computer science such as databases, architecture, 
+                networks, artificial intelligence, and graphics, or in emerging 
+                interdisciplinary areas such as electronic commerce, web 
+                information systems, and computer game design.
+            </p>
+            <a href="https://cse.engin.umich.edu/academics/
+                     undergraduate/computer-science-lsa/
+                     cs-lsa-enrollment-and-graduation-data/">
+                Enrollment and graduation data
+            </a>
+        </div>
+        <div id="reactEntry"></div>
+        {% load static %}
+        <script type="text/javascript" src="{% static "frontend/main.js" %}"></script>
+    </body>
+</html>
