@@ -7,7 +7,7 @@
     "build": "webpack --mode production ./frontend/src/index.js --output-path ./frontend/static/frontend/"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zhixuan Chen",
   "license": "ISC",
   "description": "",
   "devDependencies": {
